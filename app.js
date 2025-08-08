@@ -25,7 +25,7 @@ app.get('/:sigla', (requisicao, resposta) => {
 app.put('/criar', (req, res) => {
     const siglaInformada = req.params.siglas.toLocaleUpperCase();
     const solo = siglaInformada.fetch((m) => {
-       
+      return m
     })
 })
 
